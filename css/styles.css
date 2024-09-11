@@ -12,7 +12,7 @@ button{
     background-color: #4D5AE5;
     cursor: pointer;
     font-family: inherit;
-    border: none;
+    
     outline: none;
     
     
@@ -70,7 +70,7 @@ address{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -89,11 +89,11 @@ address{
     color: #2e2f42;
 }
 .header-nav-link:hover{
-    color: #404bbf;
+    background-color: #404bbf;
 
 }
 .header-nav-link:focus{
-    color: #404bbf;
+    background-color: #404bbf;
     text-decoration: underline 2px;
 }
 
@@ -161,6 +161,7 @@ button:hover {
 }
 
 .benefits-title {
+    color: #2E2F42;
 
 }
 
@@ -209,7 +210,7 @@ button:hover {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    
+    color: #2E2F42;
 }
 
 .team-list {
