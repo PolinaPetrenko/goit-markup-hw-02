@@ -7,17 +7,6 @@ body{
     color: #434455;
     background-color: #ffffff;
 }   
-button{
-    color: #ffffff;
-    background-color: #4D5AE5;
-    cursor: pointer;
-    font-family: inherit;
-    
-    outline: none;
-    
-    
-    
-}
 a {
     text-decoration: none;
     font-style: normal;
@@ -89,12 +78,11 @@ address{
     color: #2e2f42;
 }
 .header-nav-link:hover{
-    background-color: #404bbf;
+    color: #404bbf;
 
 }
 .header-nav-link:focus{
-    background-color: #404bbf;
-    text-decoration: underline 2px;
+    color: #404bbf;
 }
 
 .address {}
@@ -143,7 +131,7 @@ address{
     padding: 16px 32px;
     width: 169px;
     height: 56px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -151,7 +139,10 @@ address{
     line-height: 24px;
     letter-spacing: 0.64px;
 }
-button:hover {
+.btn-accent:hover {
+    background-color: #404bbf;
+}
+.btn-accent:focus {
     background-color: #404bbf;
 }
 /* #endregion  */
@@ -228,6 +219,7 @@ button:hover {
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
+        color: #2E2F42;
 }
 
 .team-desc {
@@ -251,6 +243,8 @@ button:hover {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
+        color: #2E2F42;
 }
 
 .portfolio-list {}
@@ -264,346 +258,7 @@ button:hover {
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        color: #2E2F42;
 
 }
 
